@@ -1,7 +1,4 @@
-import Result.BinaryGap;
-import Result.CyclicRotation;
-import Result.FrogJmp;
-import Result.OddOccurrencesInArray;
+import Result.*;
 
 import java.util.Arrays;
 
@@ -38,9 +35,25 @@ public class Solution {
          * https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
          * FrogJmp
          */
-        int X = 2, Y = 11, D = 3;
+//        int X = 2, Y = 11, D = 3;
+//
+//        int result = FrogJmp.solution(X, Y, D);
 
-        int result = FrogJmp.solution(X, Y, D);
+        /*
+         * https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
+         * PermMissingElem
+         */
+//        int [] A = {2,3,1,5};
+//
+//        int result = PermMissingElem.solution(A);
+
+        /*
+         * https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
+         * TapeEquilibrium
+         */
+        int[] A = {-1000, 1000};
+
+        int result = TapeEquilibrium.solution(A);
 
         System.out.println(result);
     }
