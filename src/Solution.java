@@ -1,5 +1,6 @@
 import Result.BinaryGap;
 import Result.CyclicRotation;
+import Result.FrogJmp;
 import Result.OddOccurrencesInArray;
 
 import java.util.Arrays;
@@ -29,9 +30,17 @@ public class Solution {
          * https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
          * OddOccurrencesInArray
          */
-        int[] A = {9, 3, 9, 3, 9, 7, 9};
+//        int[] A = {9, 3, 9, 3, 9, 7, 9};
+//
+//        int result = OddOccurrencesInArray.solution(A);
 
-        int result = OddOccurrencesInArray.solution(A);
+        /*
+         * https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
+         * FrogJmp
+         */
+        int X = 2, Y = 11, D = 3;
+
+        int result = FrogJmp.solution(X, Y, D);
 
         System.out.println(result);
     }
