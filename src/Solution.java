@@ -51,9 +51,26 @@ public class Solution {
          * https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
          * TapeEquilibrium
          */
-        int[] A = {-1000, 1000};
+//        int[] A = {-1000, 1000};
+//
+//        int result = TapeEquilibrium.solution(A);
 
-        int result = TapeEquilibrium.solution(A);
+        /*
+         * https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/
+         * FrogRiverOne
+         */
+//        int[] A = {1, 3, 1, 4, 2, 3, 5, 4};
+//        int X = 5;
+//
+//        int result = FrogRiverOne.solution(X, A);
+
+        /*
+         * https://app.codility.com/programmers/lessons/4-counting_elements/perm_check/
+         * PermCheck
+         */
+        int[] A = {4, 1, 2};
+
+        int result = PermCheck.solution(A);
 
         System.out.println(result);
     }
